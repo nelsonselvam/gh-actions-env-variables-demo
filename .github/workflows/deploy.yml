@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - dev
+  workflow_dispatch:
 env: # env level variables
   MONGODB_DB_NAME: gha-demo
 jobs:
