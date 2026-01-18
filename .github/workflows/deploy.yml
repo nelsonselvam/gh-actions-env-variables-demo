@@ -8,7 +8,7 @@ env: # env level variables
   MONGODB_DB_NAME: gha-demo
 jobs:
   test:
-    environment: testing
+    environment: testing # uses 'testing' environment from GH
     runs-on: ubuntu-latest
     env: # job level variables
       MONGODB_CLUSTER_ADDRESS: cluster0.pjzlfj8.mongodb.net
